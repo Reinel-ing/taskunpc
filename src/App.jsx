@@ -1,10 +1,8 @@
 function App() {
   return (
     <div>
-      <h1>Mi proyecto Taskunpc 🚀</h1>
-      <p>contenido inicial</p>
+      <h1>TaskUPC — Mi Gestor Académico</h1>
     </div>
-  )
+  );
 }
-
-export default App
+export default App;
