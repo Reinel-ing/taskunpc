@@ -13,8 +13,8 @@ function App() {
     <div>
       <Header totalPendientes={totalPendientes} />
 
-      <div style={{ padding: "16px 24px", maxWidth: "600px", margin: "0 auto" }}>
-        <nav style={{ marginBottom: "20px" }}>
+      <div style={{ padding: "16px 24px", maxWidth: "600px", margin: "0 auto", textAlign: "center" }}>
+        <nav style={{ marginBottom: "20px", textAlign: "center" }}>
           <Link
             to="/"
             style={{ marginRight: "16px", color: "#1a1a2e", textDecoration: "none", fontWeight: "bold" }}

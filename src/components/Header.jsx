@@ -4,9 +4,8 @@ function Header({ totalPendientes }) {
       backgroundColor: "#1a1a2e",
       color: "white",
       padding: "16px 24px",
-      display: "flex",
-      justifyContent: "space-between",
-      alignItems: "center",
+      position: "relative",
+      textAlign: "center",
     }}>
       <h1 style={{ margin: 0, fontSize: "1.4rem" }}>
         TaskUPC — Mi Gestor Académico
@@ -16,6 +15,10 @@ function Header({ totalPendientes }) {
         borderRadius: "20px",
         padding: "4px 14px",
         fontSize: "0.9rem",
+        position: "absolute",
+        right: "24px",
+        top: "50%",
+        transform: "translateY(-50%)",
       }}>
         {totalPendientes} pendiente{totalPendientes !== 1 ? "s" : ""}
       </span>
